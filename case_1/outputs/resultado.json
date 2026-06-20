@@ -1,0 +1,559 @@
+{
+  "empresa": "Banco Bradesco",
+  "ticker": "BBDC4",
+  "call_atual": "1T26",
+  "call_anterior": "4T25",
+  "tom": {
+    "tom": "positivo",
+    "resumo": "O tom geral da call foi positivo, com Noronha enfatizando crescimento consistente de NII (+16,4% a/a), ROE de 15,8% (acima do custo de capital pela primeira vez), capital reforçado via Bradsaúde e qualidade de carteira melhorada. Pontos de cautela emergem no custo de crédito (caso corporativo específico, agro em estresse, FGO/FGI) e na trajetória de eficiência, mas o management os enquadra como gerenciáveis e dentro do plano.",
+    "evidencias": [
+      {
+        "citacao": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2 – Destaques"
+      },
+      {
+        "citacao": "As receitas totais foram de quase R$ 37 bilhões, com crescimento de 14% a/a",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 3 – Receitas totais"
+      },
+      {
+        "citacao": "O custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante, foi um caso específico do Banco de Atacado em recuperação que, efetivamente, impulsionou esse aumento.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2 – Destaques"
+      },
+      {
+        "citacao": "Nosso grupo segurador entregou novamente resultados bem consistentes, atingindo quase 22% de ROE.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2 – Destaques"
+      },
+      {
+        "citacao": "ROE já seria maior, mas olhamos para a organização como um todo e garantimos este retorno que entregamos agora de 15,8% contra um custo de capital que deve estar hoje mais próximo de 14,5%.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    ]
+  },
+  "comparacao_temporal": {
+    "sintese": "No 1T26, o Bradesco reportou lucro recorrente de R$ 6,8 bi (+4,5% t/t) e ROE de 15,8%, continuando a trajetória de melhora. Os temas centrais permanecem consistentes com o 4T25, mas emergem mudanças relevantes: (1) elevação do tom de cautela no custo de crédito, com agravamento pontual no Atacado e sinalização de pressão no agro e PME/FGO-FGI; (2) destravamento do capital via Bradsaúde como tema novo e material; (3) NIM estável mas spread líquido pressionado pelo efeito calendário; (4) capital pro forma salto para Nível 1 de 14,5% pós-Bradsaúde; (5) varejo digital acelera forte (19 mi → 28 mi clientes); (6) guidance reiterado, com expectativa de ficar \"da metade para cima\". Continuidade clara nos temas de transformação, eficiência e seguros.",
+    "mudancas": [
+      {
+        "tema": "ROE / Lucro recorrente",
+        "direcao": "elevado",
+        "descricao": "ROE avança de 15,2% no 4T25 para 15,8% no 1T26, com lucro recorrente de R$ 6,8 bi (+4,5% t/t). O discurso de crescimento 'step by step' é mantido, mas o patamar efetivamente sobe.",
+        "evidencia_atual": {
+          "citacao": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2 – Destaques"
+        },
+        "evidencia_anterior": {
+          "citacao": "O nosso lucro líquido recorrente, foi de R$ 6,516 bilhões, com crescimento de 20,6% a/a... com ROE de 15,2%, superando o nosso custo de capital pela primeira vez nesses últimos trimestres.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2 – Lucro líquido recorrente"
+        }
+      },
+      {
+        "tema": "Custo de crédito / PDD – agravamento pontual e pressão estrutural",
+        "direcao": "elevado",
+        "descricao": "No 4T25, o custo de crédito era descrito como 'absolutamente controlado, estável'. No 1T26, o CEO reconhece custo de crédito maior, identifica agravamento específico no Atacado e sinaliza pressão adicional no agro (safras antigas) e em PME via FGO/FGI. Acrescenta que o custo de crédito deve continuar crescendo no ritmo de R$ 300-500 mi por trimestre, reflexo do crescimento de carteira pela Res. 4.966.",
+        "evidencia_atual": {
+          "citacao": "O custo de crédito foi um pouco maior... foi um caso específico do Banco de Atacado em recuperação que, efetivamente, impulsionou esse aumento... o custo de crédito deve continuar crescendo nesse mesmo ritmo. Pode aumentar R$ 500 milhões, R$ 300 milhões, mas estamos fazendo provisão à medida que construímos e empilhamos carteira.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 4 – Margem financeira (NII)"
+        },
+        "evidencia_anterior": {
+          "citacao": "Custo de crédito absolutamente controlado, estável, e a margem com o mercado entregando aquilo que tínhamos de expectativa.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 19 – Margem financeira total"
+        }
+      },
+      {
+        "tema": "Bradsaúde – destravamento de capital e criação de valor",
+        "direcao": "novo",
+        "descricao": "Tema ausente como fato consumado no 4T25. No 1T26, o lançamento da Bradsaúde (consolidação de todos os ativos de saúde) é destacado como evento transformador: avaliação de ~R$ 46 bi, mais-valia superior a R$ 30 bi e impacto positivo no capital (Nível 1 pro forma salta para 14,5%).",
+        "evidencia_atual": {
+          "citacao": "Concluímos o lançamento da Bradsaúde, que consolidou todos os ativos de saúde da nossa organização... avaliada em cerca de R$ 46 bilhões em valor de mercado, o que significa que trouxe uma mais-valia superior a R$ 30 bilhões para a nossa organização.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2 – Destaques"
+        },
+        "evidencia_anterior": null
+      },
+      {
+        "tema": "Capital (Basileia)",
+        "direcao": "elevado",
+        "descricao": "No 4T25, o Capital Nível 1 estava em 13,2% (crescimento de 0,8 p.p. no ano). No 1T26, com o efeito Bradsaúde, o Nível 1 pro forma salta para 14,5% e o Capital Principal para 12,7%, colocando o banco em 'zona de conforto muito grande' – linguagem significativamente mais positiva.",
+        "evidencia_atual": {
+          "citacao": "O Nível 1 cresceu para 14,5% e o principal para 12,7%... nos coloca em uma zona de conforto muito grande em relação ao nosso capital.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 10 – Basileia & dividendos / JCP"
+        },
+        "evidencia_anterior": {
+          "citacao": "No capital nível I saímos de 12,4% para 13,2%, mais 0,8 p.p., e no capital principal temos um crescimento de 0,7 p.p.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 23 – Basileia & dividendos/JCP"
+        }
+      },
+      {
+        "tema": "Margem financeira (NII/NIM) e spread líquido",
+        "direcao": "reiterado",
+        "descricao": "NIM (spread) sobe levemente para 9,1%, com expectativa de manutenção 'ao redor de 9%'. Contudo, a margem líquida com clientes cai t/t de R$ 10,3 bi para R$ 9,8 bi por efeito calendário (1T mais fraco), com o CEO explicando que sem esse efeito seria R$ 10,3 bi. Discurso estratégico de crescimento da margem é mantido, sem alteração de guidance.",
+        "evidencia_atual": {
+          "citacao": "A nossa expectativa é manter uma NIM ao redor disso, perto de 9%, bastante estável... sem o efeito calendário, teríamos crescido 5% t/t.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 4 – Margem financeira (NII)"
+        },
+        "evidencia_anterior": {
+          "citacao": "Nosso spread está em 9%, estável em relação ao trimestre passado. A margem com clientes cresce 17,4% 25/24.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 19 – Margem financeira total"
+        }
+      },
+      {
+        "tema": "Carteira de crédito – crescimento e mix",
+        "direcao": "reiterado",
+        "descricao": "Carteira próxima de R$ 1,1 tri em ambos os trimestres, mas o crescimento a/a desacelera de 11% (4T25) para 8,4% (1T26), parcialmente explicado pelo efeito cambial (sem câmbio: 9,5% a/a). O apetite moderado é reiterado, com ênfase em retorno ajustado ao risco. Veículos emerge como destaque de crescimento (nova plataforma unificada, +7,3% t/t). Consignado privado acelerado (+43% a/a). Discurso estratégico sem alteração.",
+        "evidencia_atual": {
+          "citacao": "Nossa carteira atingiu quase R$ 1,1 trilhão, com um crescimento de 8,4% a/a. Contudo, o efeito cambial da valorização do real teve um impacto significativo... Se desconsiderarmos esse efeito, estaríamos crescendo 9,5% a/a, mesmo com um apetite a risco moderado.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 5 – Carteira de crédito expandida"
+        },
+        "evidencia_anterior": {
+          "citacao": "Olhando para a carteira de crédito, quase R$ 1,1 trilhão, crescemos 11% a/a, acima da nossa expectativa.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 17 – Carteira de crédito expandida"
+        }
+      },
+      {
+        "tema": "Inadimplência / qualidade de carteira – pressão em PME (FGO/FGI) e agro",
+        "direcao": "elevado",
+        "descricao": "No 4T25, todos os indicadores de qualidade eram descritos como 'absolutamente tranquilos' e estáveis. No 1T26, o over 90 total permanece estável, mas o CEO alerta para crescimento da inadimplência em PME via FGO/FGI (carências vencendo) e risco de agravamento no crédito rural (safras antigas, enchentes/seca no Sul). Tom passa de 'tranquilo' para reconhecimento de pressões localizadas.",
+        "evidencia_atual": {
+          "citacao": "A inadimplência over 90 total está estável, mas em PME cresce um pouco, vindo em linhas governamentais, FGO e FGI... estou dando a perspectiva de um agravamento no setor rural.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 6 – Indicadores de qualidade da carteira"
+        },
+        "evidencia_anterior": {
+          "citacao": "Inadimplência acima de 90 dias (over 90) absolutamente tranquilo. A inadimplência de 15 a 90 dias (over 15) também absolutamente tranquila, estável.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 18 – Indicadores de qualidade da carteira"
+        }
+      },
+      {
+        "tema": "Varejo digital e transformação tecnológica",
+        "direcao": "elevado",
+        "descricao": "Base de clientes do varejo digital salta de 19 mi (encerramento 4T25) para 28 mi no 1T26, superando antecipadamente a meta de ~40 mi para o final de 2026. BIA Clientes no Prime atinge 94% de acurácia (vs. 93% no 4T25). O ritmo de transformação é descrito como ainda mais acelerado.",
+        "evidencia_atual": {
+          "citacao": "Encerramos o ano passado com 19 milhões de clientes totalmente digitais, e agora fechamos com 28 milhões, como havíamos apontado que atingiríamos um número muito superior a este. Estamos muito confiantes e acelerados na nossa transformação.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 12 – Plano de transformação em execução acelerada"
+        },
+        "evidencia_anterior": {
+          "citacao": "Fechamos o ano com 19 milhões de clientes no varejo digital... esperamos para 2026... sair de 19 milhões para cerca de 40 milhões de clientes, entre correntistas e não correntistas.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 5 – Varejo digital"
+        }
+      }
+    ]
+  },
+  "perguntas_criticas": [
+    {
+      "analista": "Pedro Leduc (Itaú BBA)",
+      "pergunta_resumo": "A PDD líquida de R$ 9,7 bi é o novo patamar ou há alívio à frente? O caso corporativo específico e a sazonalidade do massificado implicam que o custo de crédito pode cair nos próximos trimestres?",
+      "por_que_critica": "Questiona diretamente a sustentabilidade e a direção do custo de crédito, maior pressão sobre o ROE e a tese de melhora gradual. Investidores identificaram como principal ponto de atenção do trimestre.",
+      "resposta_resumo": "Noronha indicou que o caso de atacado é pontual e oscilante, mas que o custo de crédito massificado continuará crescendo (R$300-500mi/tri) em linha com crescimento de carteira via Res. 4.966. André confirmou guidance de custo de crédito anual em torno de 3,3%, começando mais alto e convergindo.",
+      "qualidade_resposta": "parcial",
+      "avaliacao_resposta": "A resposta confirma que o patamar de R$ 9,7 bi não é recorrente no atacado, mas não quantifica o alívio esperado nem dá visibilidade sobre o timing de normalização. O guidance de 3,3% ao ano ajuda, mas deixa lacuna sobre o ritmo trimestral e a magnitude do caso corporativo provisionado.",
+      "trecho_pergunta": {
+        "citacao": "se podemos trabalhar com uma PDD um pouco mais leve nos próximos trimestres.",
+        "speaker": "Pedro Leduc (Itaú BBA)",
+        "secao": "Q&A"
+      },
+      "trecho_resposta": {
+        "citacao": "O custo de crédito tem uma perspectiva anual em torno de 3,3%; ele começa mais alto para convergir para 3,3%, naturalmente.",
+        "speaker": "André Carvalho",
+        "secao": "Q&A"
+      }
+    },
+    {
+      "analista": "Henrique Navarro (Santander)",
+      "pergunta_resumo": "Qual o ROE sustentável do Bradesco em velocidade de cruzeiro? O consenso de investidores aponta 18% — esse número incomoda o management?",
+      "por_que_critica": "Pressiona diretamente a tese de investimento e a sustentabilidade do ROE no longo prazo, especialmente considerando ventos de proa (alíquota efetiva de IR crescente, necessidade de reforço de provisão vs. pares).",
+      "resposta_resumo": "Noronha reafirmou o discurso de step-by-step até 2028, disse que 18% é 'absolutamente viável' e que ROEs maiores também são, mas recusou-se a prometer patamar ou prazo específico.",
+      "qualidade_resposta": "evasiva",
+      "avaliacao_resposta": "A resposta é genérica e não endereça os ventos de proa levantados (IR crescente, necessidade de provisão adicional), nem dá cor sobre os drivers incrementais que levariam o ROE além de 16%. O management se escuda no framework 'step-by-step até 2028' sem quantificar etapas.",
+      "trecho_pergunta": {
+        "citacao": "se esse número de 18% o incomoda, porque, convenhamos, ele não é muito alto, como um nível sustentável de ROE.",
+        "speaker": "Henrique Navarro (Santander)",
+        "secao": "Q&A"
+      },
+      "trecho_resposta": {
+        "citacao": "Olhar para um ROE de 18% no Brasil, você sabe que é absolutamente viável. Ter ROEs maiores é absolutamente viável. E vamos perseguir o crescimento. Não prometo o patamar e não prometo quando.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    },
+    {
+      "analista": "Yuri Fernandes (JP Morgan)",
+      "pergunta_resumo": "O estágio 3 da carteira expandida piorou (avais/fianças/TVM). A provisão feita não seria suficiente para cobrir esse formation. Deveríamos esperar provisões ainda mais altas ou há melhora à vista?",
+      "por_que_critica": "Aponta inconsistência entre a narrativa positiva de qualidade de carteira e o deterioramento do estágio 3 expandido, questionando se o custo de crédito pode ser ainda mais pressionado do que o guidance implica.",
+      "resposta_resumo": "André explicou que a provisão não precisou acompanhar o estágio 3 expandido por causa do maior colateral (61%) e redução da carteira reestruturada. Noronha destacou que o índice de cobertura subiu de 105% para 118% no estágio 3.",
+      "qualidade_resposta": "parcial",
+      "avaliacao_resposta": "A resposta oferece drivers qualitativos plausíveis (mais garantias, menos carteira reestruturada), mas não quantifica o nível de cobertura específico para grandes empresas nem esclarece completamente a dinâmica do estágio 3 expandido vs. restrito. A evasão sobre o caso corporativo específico deixa lacuna relevante.",
+      "trecho_pergunta": {
+        "citacao": "a provisão que vocês fizeram, que foi muito alta, ainda não foi suficiente para fazer frente a esse formation.",
+        "speaker": "Yuri Fernandes (JP Morgan)",
+        "secao": "Q&A"
+      },
+      "trecho_resposta": {
+        "citacao": "aumentamos nosso nível de cobertura, que no último trimestre era em torno de 105% e foi para 118%.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    }
+  ],
+  "red_flags": [
+    {
+      "tipo": "evasao",
+      "descricao": "Noronha recusou-se a quantificar o nível de cobertura específico para o caso corporativo de atacado provisionado, tampouco revelou o nome ou o setor da empresa, limitando-se a dizer que 'agravamos' e que 'estamos bem cobertos', sem dados concretos para avaliação independente.",
+      "severidade": 3,
+      "trecho": {
+        "citacao": "não mencionei quanto eu tinha ou não tinha de provisão. Eu disse que agravei. E estamos bem cobertos.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    },
+    {
+      "tipo": "cautela_excessiva",
+      "descricao": "O management sinalizou deterioração no crédito rural (safras antigas, enchentes/seca no Sul, carências vencendo) e no FGO/FGI (carteira cresceu 81% a/a com over 90 pressionando), mas qualificou como 'absolutamente tranquilo', minimizando potencial impacto em provisões futuras.",
+      "severidade": 3,
+      "trecho": {
+        "citacao": "há esses movimentos na 4.966, que consideramos absolutamente tranquilos.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 6 – Indicadores de qualidade da carteira"
+      }
+    },
+    {
+      "tipo": "evasao",
+      "descricao": "Pergunta direta sobre ROE sustentável (18%) foi respondida sem compromisso com patamar ou prazo, apesar da existência de ventos de proa concretos (IR crescente, reforço de provisão) mencionados pelo analista e não rebatidos com dados.",
+      "severidade": 2,
+      "trecho": {
+        "citacao": "Não prometo o patamar e não prometo quando.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    },
+    {
+      "tipo": "mudanca_de_assunto",
+      "descricao": "Ao ser questionado sobre geração orgânica de capital exclusivamente pelo banco (sem subsidiárias), Noronha redirecionou para a visão consolidada do conglomerado e para o ROE total do grupo, sem responder se o banco standalone já é gerador líquido de capital.",
+      "severidade": 2,
+      "trecho": {
+        "citacao": "se consolidássemos tudo, se quiséssemos fazer, o ROE já seria maior, mas olhamos para a organização como um todo",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    },
+    {
+      "tipo": "hesitacao",
+      "descricao": "Noronha admitiu ter se arrependido de usar o termo 'mais conservador' para descrever o apetite a risco, sugerindo cautela na comunicação com o mercado sobre a real intensidade do endurecimento de critérios de crédito.",
+      "severidade": 1,
+      "trecho": {
+        "citacao": "você falando aqui, já estou arrependido de ter colocado 'mais conservador', porque o apetite a risco é moderado.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    }
+  ],
+  "surprise": {
+    "score": 4,
+    "resumo": "Resultado amplamente em linha com o guidance, sem grandes surpresas positivas ou negativas para o consenso. O principal elemento inesperado foi a magnitude do impacto de capital da Bradsaúde (+250 bps pro forma), superior ao esperado pelo mercado. O caso de PDD no atacado e o agravamento no agro eram riscos conhecidos, mas a intensidade do agravamento voluntário e a dinâmica do estágio 3 expandido podem ter surpreendido marginalmente.",
+    "justificativa": "Inferência baseada na novidade e intensidade do conteúdo da call, sem acesso a consenso externo. O ROE de 15,8% já estava sinalizado pelo guidance. O NII crescendo 16,4% a/a é forte mas consistente com trimestres anteriores. O impacto de capital da Bradsaúde de 250 bps foi a maior novidade, pois o mercado esperava reforço de capital, mas a magnitude e a natureza dos componentes (reclassificação de holding pura + efeito fiscal) podem ter surpreendido positivamente. O custo de crédito elevado e o caso corporativo foram parcialmente antecipados pelo mercado.",
+    "evidencias": [
+      {
+        "citacao": "O Nível 1 cresceu para 14,5% e o principal para 12,7%.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 10 – Basileia & dividendos / JCP"
+      },
+      {
+        "citacao": "250 bps, que seria o impacto pro forma",
+        "speaker": "Pedro Leduc (Itaú BBA)",
+        "secao": "Q&A"
+      },
+      {
+        "citacao": "12,7% pro forma em março, terminando o ano, provavelmente, perto desse 12,7%, talvez um pouco acima.",
+        "speaker": "André Carvalho",
+        "secao": "Q&A"
+      },
+      {
+        "citacao": "havia uma contingência da ordem de R$ 5 bilhões, e resolvemos pagá-la integralmente, pagamos com crédito tributário (DTA).",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2 – Destaques"
+      }
+    ]
+  },
+  "auditoria_citacoes": [
+    {
+      "onde": "tom.evidencias[1]",
+      "citacao": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%."
+    },
+    {
+      "onde": "tom.evidencias[2]",
+      "citacao": "As receitas totais foram de quase R$ 37 bilhões, com crescimento de 14% a/a",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "As receitas totais foram de quase R$ 37 bilhões, com crescimento de 14% a/a"
+    },
+    {
+      "onde": "tom.evidencias[3]",
+      "citacao": "O custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante, foi um caso específico do Banco de Atacado em recuperação que, efetivamente, impulsionou esse aumento.",
+      "status": "nao_encontrada",
+      "similaridade": 0.53,
+      "trecho_encontrado": "o sobre provisão e de mercado também. o custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante , foi um caso específico do banco de atacado em recuperação que, efetivamente, impulsionou esse aumento. "
+    },
+    {
+      "onde": "tom.evidencias[4]",
+      "citacao": "Nosso grupo segurador entregou novamente resultados bem consistentes, atingindo quase 22% de ROE.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Nosso grupo segurador entregou novamente resultados bem consistentes, atingindo quase 22% de ROE."
+    },
+    {
+      "onde": "tom.evidencias[5]",
+      "citacao": "ROE já seria maior, mas olhamos para a organização como um todo e garantimos este retorno que entregamos agora de 15,8% contra um custo de capital que deve estar hoje mais próximo de 14,5%.",
+      "status": "nao_encontrada",
+      "similaridade": 0.856,
+      "trecho_encontrado": "se consolidássemos tudo, se quiséssemos fazer, o roe já seria maior, mas olhamos para a organização como um todo e garantimos este retorno que entregamo s agora de 15,8% contra um custo de capital que deve estar hoje mais próximo"
+    },
+    {
+      "onde": "pergunta_critica[1].pergunta",
+      "citacao": "se podemos trabalhar com uma PDD um pouco mais leve nos próximos trimestres.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "se podemos trabalhar com uma PDD um pouco mais leve nos próximos trimestres."
+    },
+    {
+      "onde": "pergunta_critica[1].resposta",
+      "citacao": "O custo de crédito tem uma perspectiva anual em torno de 3,3%; ele começa mais alto para convergir para 3,3%, naturalmente.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "O custo de crédito tem uma perspectiva anual em torno de 3,3%; ele começa mais alto para convergir para 3,3%, naturalmente."
+    },
+    {
+      "onde": "pergunta_critica[2].pergunta",
+      "citacao": "se esse número de 18% o incomoda, porque, convenhamos, ele não é muito alto, como um nível sustentável de ROE.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "se esse número de 18% o incomoda, porque, convenhamos, ele não é muito alto, como um nível sustentável de ROE."
+    },
+    {
+      "onde": "pergunta_critica[2].resposta",
+      "citacao": "Olhar para um ROE de 18% no Brasil, você sabe que é absolutamente viável. Ter ROEs maiores é absolutamente viável. E vamos perseguir o crescimento. Não prometo o patamar e não prometo quando.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Olhar para um ROE de 18% no Brasil, você sabe que é absolutamente viável. Ter ROEs maiores é absolutamente viável. E vamos perseguir o crescimento. Não prometo o patamar e não prometo quando."
+    },
+    {
+      "onde": "pergunta_critica[3].pergunta",
+      "citacao": "a provisão que vocês fizeram, que foi muito alta, ainda não foi suficiente para fazer frente a esse formation.",
+      "status": "nao_encontrada",
+      "similaridade": 0.846,
+      "trecho_encontrado": "ira expandida, a provisão que vocês fizeram, que foi muito alta, ainda não foi suficiente para fazer frente a ess e formation. então, a dúvida que ten"
+    },
+    {
+      "onde": "pergunta_critica[3].resposta",
+      "citacao": "aumentamos nosso nível de cobertura, que no último trimestre era em torno de 105% e foi para 118%.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "aumentamos nosso nível de cobertura, que no último trimestre era em torno de 105% e foi para 118%."
+    },
+    {
+      "onde": "red_flags[1]",
+      "citacao": "não mencionei quanto eu tinha ou não tinha de provisão. Eu disse que agravei. E estamos bem cobertos.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "não mencionei quanto eu tinha ou não tinha de provisão. Eu disse que agravei. E estamos bem cobertos."
+    },
+    {
+      "onde": "red_flags[2]",
+      "citacao": "há esses movimentos na 4.966, que consideramos absolutamente tranquilos.",
+      "status": "nao_encontrada",
+      "similaridade": 0.783,
+      "trecho_encontrado": "ais de garantia. assim, há esses movimentos na 4 .966, que consideramos absolutamente tranquilos. agora, observe"
+    },
+    {
+      "onde": "red_flags[3]",
+      "citacao": "Não prometo o patamar e não prometo quando.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Não prometo o patamar e não prometo quando."
+    },
+    {
+      "onde": "red_flags[4]",
+      "citacao": "se consolidássemos tudo, se quiséssemos fazer, o ROE já seria maior, mas olhamos para a organização como um todo",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "se consolidássemos tudo, se quiséssemos fazer, o ROE já seria maior, mas olhamos para a organização como um todo"
+    },
+    {
+      "onde": "red_flags[5]",
+      "citacao": "você falando aqui, já estou arrependido de ter colocado 'mais conservador', porque o apetite a risco é moderado.",
+      "status": "nao_encontrada",
+      "similaridade": 0.826,
+      "trecho_encontrado": "o mais uma vez. vou te falar o seguinte: você falando aqui, já estou arrependido de ter colocado \"mais conservador\", porque o apetite a risco é moderado"
+    },
+    {
+      "onde": "surprise.evidencias[1]",
+      "citacao": "O Nível 1 cresceu para 14,5% e o principal para 12,7%.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "O Nível 1 cresceu para 14,5% e o principal para 12,7%."
+    },
+    {
+      "onde": "surprise.evidencias[2]",
+      "citacao": "250 bps, que seria o impacto pro forma",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "250 bps, que seria o impacto pro forma"
+    },
+    {
+      "onde": "surprise.evidencias[3]",
+      "citacao": "12,7% pro forma em março, terminando o ano, provavelmente, perto desse 12,7%, talvez um pouco acima.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "12,7% pro forma em março, terminando o ano, provavelmente, perto desse 12,7%, talvez um pouco acima."
+    },
+    {
+      "onde": "surprise.evidencias[4]",
+      "citacao": "havia uma contingência da ordem de R$ 5 bilhões, e resolvemos pagá-la integralmente, pagamos com crédito tributário (DTA).",
+      "status": "nao_encontrada",
+      "similaridade": 0.838,
+      "trecho_encontrado": "negociada. tínhamos uma contingência da ordem de r$ 5 bilhões, e resolvemos pagá -la i ntegralmente, pagamos com crédito tributário ( dta). portanto, esta é uma n"
+    },
+    {
+      "onde": "comparacao[1].atual",
+      "citacao": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%."
+    },
+    {
+      "onde": "comparacao[1].anterior",
+      "citacao": "O nosso lucro líquido recorrente, foi de R$ 6,516 bilhões, com crescimento de 20,6% a/a... com ROE de 15,2%, superando o nosso custo de capital pela primeira vez nesses últimos trimestres.",
+      "status": "nao_encontrada",
+      "similaridade": 0.736,
+      "trecho_encontrado": ", foi de r$ 6,516 bilhões, com crescimento de 20,6% a/a e r$ 24,7 bilhões no ano fechado, 26,1% de crescimento e, sobretudo, com roe de 15,2%, superando o nosso custo de capital pela primeira vez nesses últimos trimestres. a nos"
+    },
+    {
+      "onde": "comparacao[2].atual",
+      "citacao": "O custo de crédito foi um pouco maior... foi um caso específico do Banco de Atacado em recuperação que, efetivamente, impulsionou esse aumento... o custo de crédito deve continuar crescendo nesse mesmo ritmo. Pode aumentar R$ 500 milhões, R$ 300 milhões, mas estamos fazendo provisão à medida que construímos e empilhamos carteira.",
+      "status": "nao_encontrada",
+      "similaridade": 0.553,
+      "trecho_encontrado": "ta verá uma apresentação com e ste indicador anualizado. mas, trimestre a trimestre, esse é o significado. portanto, o custo de crédito deve continuar crescendo nesse mesmo ritmo. pode aumentar r$ 500 milhões , r$ 300 milhões, mas estamos fazendo provisão à medida que construímos e empilhamos carteira, o que garante, naturalmente, noss a margem financeira . é isso que "
+    },
+    {
+      "onde": "comparacao[2].anterior",
+      "citacao": "Custo de crédito absolutamente controlado, estável, e a margem com o mercado entregando aquilo que tínhamos de expectativa.",
+      "status": "nao_encontrada",
+      "similaridade": 0.853,
+      "trecho_encontrado": "6% 25/24, com o spread líquido em 4,8%. custo de crédito absolutamente controlado, estável, e a margem com o mercado entregando aquilo que tínhamos de expectativa "
+    },
+    {
+      "onde": "comparacao[3].atual",
+      "citacao": "Concluímos o lançamento da Bradsaúde, que consolidou todos os ativos de saúde da nossa organização... avaliada em cerca de R$ 46 bilhões em valor de mercado, o que significa que trouxe uma mais-valia superior a R$ 30 bilhões para a nossa organização.",
+      "status": "nao_encontrada",
+      "similaridade": 0.578,
+      "trecho_encontrado": "udo, destravou valor para os nossos acionistas. é uma operação muito importante. ela está avaliada em cerca de r$ 46 bilhões em valor de mercado, o que significa que trouxe uma mais -valia superior a r$ 30 bilhões para a nossa organização. portanto, é um movimento bastante importante e que"
+    },
+    {
+      "onde": "comparacao[4].atual",
+      "citacao": "O Nível 1 cresceu para 14,5% e o principal para 12,7%... nos coloca em uma zona de conforto muito grande em relação ao nosso capital.",
+      "status": "nao_encontrada",
+      "similaridade": 0.595,
+      "trecho_encontrado": " finanças estão à disposição para explicar todos os detalhes sobre esse movimento que realizamos, que nos coloca em uma zona de conforto muito grande em relação ao nosso cap"
+    },
+    {
+      "onde": "comparacao[4].anterior",
+      "citacao": "No capital nível I saímos de 12,4% para 13,2%, mais 0,8 p.p., e no capital principal temos um crescimento de 0,7 p.p.",
+      "status": "nao_encontrada",
+      "similaridade": 0.832,
+      "trecho_encontrado": "capital nível i saímos de 12,4% para 13,2% , mais 0,8 p.p., e no capital principal temos um crescimento de 0,7 p.p. no trimestre, tem uma pequena queda de 20"
+    },
+    {
+      "onde": "comparacao[5].atual",
+      "citacao": "A nossa expectativa é manter uma NIM ao redor disso, perto de 9%, bastante estável... sem o efeito calendário, teríamos crescido 5% t/t.",
+      "status": "nao_encontrada",
+      "similaridade": 0.692,
+      "trecho_encontrado": "es , a nossa ni m (spread) cresceu para 9,1%. a nossa expectativa é manter uma nim ao redor disso, perto de 9%, bastante estável. na margem com clientes, tivemos um crescimento"
+    },
+    {
+      "onde": "comparacao[5].anterior",
+      "citacao": "Nosso spread está em 9%, estável em relação ao trimestre passado. A margem com clientes cresce 17,4% 25/24.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Nosso spread está em 9%, estável em relação ao trimestre passado. A margem com clientes cresce 17,4% 25/24."
+    },
+    {
+      "onde": "comparacao[6].atual",
+      "citacao": "Nossa carteira atingiu quase R$ 1,1 trilhão, com um crescimento de 8,4% a/a. Contudo, o efeito cambial da valorização do real teve um impacto significativo... Se desconsiderarmos esse efeito, estaríamos crescendo 9,5% a/a, mesmo com um apetite a risco moderado.",
+      "status": "nao_encontrada",
+      "similaridade": 0.833,
+      "trecho_encontrado": "ase r$ 1,1 trilhão, com um crescimento de 8,4% a/a. contudo, o efeito cambial da valorização do real teve um impacto significativo, principalmente em grandes e médias empresas. se desconsiderarmos esse efeito, estaríamos crescendo 9,5% a/a, mesmo com um apetite a risco moderado. na pessoa física, voc"
+    },
+    {
+      "onde": "comparacao[6].anterior",
+      "citacao": "Olhando para a carteira de crédito, quase R$ 1,1 trilhão, crescemos 11% a/a, acima da nossa expectativa.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Olhando para a carteira de crédito, quase R$ 1,1 trilhão, crescemos 11% a/a, acima da nossa expectativa."
+    },
+    {
+      "onde": "comparacao[7].atual",
+      "citacao": "A inadimplência over 90 total está estável, mas em PME cresce um pouco, vindo em linhas governamentais, FGO e FGI... estou dando a perspectiva de um agravamento no setor rural.",
+      "status": "nao_encontrada",
+      "similaridade": 0.582,
+      "trecho_encontrado": " seguros da qualidade do nosso portfólio. observem o detalhe sobre o estágio 2, que cresce um pouco. a inadimplência over 90 total está estável, mas em pme cresce um pouco, vindo e m linhas governamentais, fgo e fgi."
+    },
+    {
+      "onde": "comparacao[7].anterior",
+      "citacao": "Inadimplência acima de 90 dias (over 90) absolutamente tranquilo. A inadimplência de 15 a 90 dias (over 15) também absolutamente tranquila, estável.",
+      "status": "aproximada",
+      "similaridade": 0.881,
+      "trecho_encontrado": "todos estáveis. inadimplência acima de 90 dias (over 90) absolutamente tranquilo. a inadimplência de 15 a 90 dias ( over 15) também absolutamente tranquila, estável. carteira reestruturada"
+    },
+    {
+      "onde": "comparacao[8].atual",
+      "citacao": "Encerramos o ano passado com 19 milhões de clientes totalmente digitais, e agora fechamos com 28 milhões, como havíamos apontado que atingiríamos um número muito superior a este. Estamos muito confiantes e acelerados na nossa transformação.",
+      "status": "aproximada",
+      "similaridade": 0.919,
+      "trecho_encontrado": "lembro que encerramos o ano passado com 19 milhões de clientes totalmente digitais, e agora fechamos com 28 milhões, como havíamos apontado que atingiríamos um número muito superior a este. estamos muito confiantes e acelerados na nossa transformação, que vem trazendo produtivida"
+    },
+    {
+      "onde": "comparacao[8].anterior",
+      "citacao": "Fechamos o ano com 19 milhões de clientes no varejo digital... esperamos para 2026... sair de 19 milhões para cerca de 40 milhões de clientes, entre correntistas e não correntistas.",
+      "status": "nao_encontrada",
+      "similaridade": 0.592,
+      "trecho_encontrado": "o importante para vocês. e esperamos para 2026 em relação ao nosso varejo digital , p rimeiro, sair de 19 milhões para cerca de 40 milhões de clientes, entre correntistas e não correntistas. e, naturalmente, os objetivos "
+    }
+  ],
+  "validacao_finbert": [],
+  "avisos_validacao": [
+    "Citação não encontrada: tom.evidencias[3] — O custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante, foi um cas",
+    "Citação não encontrada: tom.evidencias[5] — ROE já seria maior, mas olhamos para a organização como um todo e garantimos este retorno ",
+    "Citação não encontrada: pergunta_critica[3].pergunta — a provisão que vocês fizeram, que foi muito alta, ainda não foi suficiente para fazer fren",
+    "Citação não encontrada: red_flags[2] — há esses movimentos na 4.966, que consideramos absolutamente tranquilos.",
+    "Citação não encontrada: red_flags[5] — você falando aqui, já estou arrependido de ter colocado 'mais conservador', porque o apeti",
+    "Citação não encontrada: surprise.evidencias[4] — havia uma contingência da ordem de R$ 5 bilhões, e resolvemos pagá-la integralmente, pagam",
+    "Citação não encontrada: comparacao[1].anterior — O nosso lucro líquido recorrente, foi de R$ 6,516 bilhões, com crescimento de 20,6% a/a...",
+    "Citação não encontrada: comparacao[2].atual — O custo de crédito foi um pouco maior... foi um caso específico do Banco de Atacado em rec",
+    "Citação não encontrada: comparacao[2].anterior — Custo de crédito absolutamente controlado, estável, e a margem com o mercado entregando aq",
+    "Citação não encontrada: comparacao[3].atual — Concluímos o lançamento da Bradsaúde, que consolidou todos os ativos de saúde da nossa org",
+    "Citação não encontrada: comparacao[4].atual — O Nível 1 cresceu para 14,5% e o principal para 12,7%... nos coloca em uma zona de confort",
+    "Citação não encontrada: comparacao[4].anterior — No capital nível I saímos de 12,4% para 13,2%, mais 0,8 p.p., e no capital principal temos",
+    "Citação não encontrada: comparacao[5].atual — A nossa expectativa é manter uma NIM ao redor disso, perto de 9%, bastante estável... sem ",
+    "Citação não encontrada: comparacao[6].atual — Nossa carteira atingiu quase R$ 1,1 trilhão, com um crescimento de 8,4% a/a. Contudo, o ef",
+    "Citação não encontrada: comparacao[7].atual — A inadimplência over 90 total está estável, mas em PME cresce um pouco, vindo em linhas go",
+    "Citação não encontrada: comparacao[8].anterior — Fechamos o ano com 19 milhões de clientes no varejo digital... esperamos para 2026... sair"
+  ]
+}

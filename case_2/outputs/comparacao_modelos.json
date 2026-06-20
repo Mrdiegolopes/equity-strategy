@@ -1,0 +1,109 @@
+{
+  "anthropic": {
+    "choque": {
+      "d_selic": -0.25,
+      "d_cambio": -0.02,
+      "ret_commodity": 0.02,
+      "ret_mercado": 0.03,
+      "horizonte_meses": 12,
+      "confianca_extracao": "media",
+      "premissas": [
+        "d_cambio: corte moderado de juros tende a leve depreciacao do real por reducao do diferencial de juros; estimado em -2% (leve apreciacao descartada pois o corte ja era precificado).",
+        "ret_commodity: sem mencao a commodities; corte de juros no Brasil tem impacto neutro a levemente positivo sobre demanda interna, estimado +2%.",
+        "ret_mercado: corte de juros favorece renda variavel via reducao da taxa de desconto e migracao para ativos de risco; estimado +3% no Ibovespa.",
+        "horizonte_meses: nao mencionado explicitamente; assumido 12 meses como padrao."
+      ]
+    },
+    "setores_beneficiados": [
+      "Imobiliario_Construcao",
+      "Varejo_Discricionario",
+      "Mineracao_Siderurgia",
+      "Bancos",
+      "Saude"
+    ],
+    "setores_prejudicados": [
+      "Agro_Alimentos",
+      "Papel_Celulose",
+      "Consumo_Defensivo",
+      "Utilities_Energia",
+      "Petroleo_Gas"
+    ],
+    "tickers_positivos": [
+      "CYRE3.SA",
+      "MRVE3.SA",
+      "ITUB4.SA",
+      "VALE3.SA",
+      "LREN3.SA"
+    ],
+    "tickers_negativos": [
+      "PETR4.SA",
+      "SUZB3.SA",
+      "EGIE3.SA"
+    ]
+  },
+  "gemini": {
+    "choque": {
+      "d_selic": -0.25,
+      "d_cambio": 0.0,
+      "ret_commodity": 0.0,
+      "ret_mercado": 0.0,
+      "horizonte_meses": 12,
+      "confianca_extracao": "baixa",
+      "premissas": [
+        "O cenário não menciona explicitamente a variação do câmbio, commodities ou mercado de ações, portanto, assumimos 0% de variação para esses fatores.",
+        "O horizonte de meses não foi especificado, assumimos 12 meses."
+      ]
+    },
+    "setores_beneficiados": [
+      "Imobiliario_Construcao",
+      "Saude",
+      "Mineracao_Siderurgia",
+      "Papel_Celulose",
+      "Transporte_Logistica"
+    ],
+    "setores_prejudicados": [
+      "Agro_Alimentos",
+      "Petroleo_Gas",
+      "Consumo_Defensivo",
+      "Utilities_Energia",
+      "Bancos"
+    ],
+    "tickers_positivos": [
+      "CYRE3.SA",
+      "RDOR3.SA",
+      "VALE3.SA"
+    ],
+    "tickers_negativos": [
+      "MBRF3.SA",
+      "PETR4.SA",
+      "ABEV3.SA"
+    ]
+  },
+  "comparacao": {
+    "overlap_tickers_positivos": [
+      "CYRE3.SA",
+      "VALE3.SA"
+    ],
+    "overlap_tickers_negativos": [
+      "PETR4.SA"
+    ],
+    "overlap_setores_beneficiados": [
+      "Imobiliario_Construcao",
+      "Mineracao_Siderurgia",
+      "Saude"
+    ],
+    "overlap_setores_prejudicados": [
+      "Agro_Alimentos",
+      "Consumo_Defensivo",
+      "Petroleo_Gas",
+      "Utilities_Energia"
+    ],
+    "diferenca_absoluta_choque": {
+      "d_selic": 0.0,
+      "d_cambio": 0.02,
+      "ret_commodity": 0.02,
+      "ret_mercado": 0.03
+    },
+    "concordancia_setores_pct": 70.0
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "empresa": "Banco Bradesco",
+  "ticker": "BBDC4",
+  "call_atual": "1T26",
+  "call_anterior": "4T25",
+  "tom": {
+    "tom": "positivo",
+    "resumo": "Tom construtivo: management reforça aceleração de receitas, NII e ROE acima do custo de capital, mas com cautela explícita em crédito rural, PDD e apetite de risco.",
+    "evidencias": [
+      {
+        "citacao": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2"
+      },
+      {
+        "citacao": "Deixamos claro o nosso apetite moderado. Tenho falado de apetite moderado para todo o mercado há vários trimestres.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2"
+      },
+      {
+        "citacao": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    ]
+  },
+  "comparacao_temporal": {
+    "sintese": "A mensagem de 1T26 mantém a tese de transformação do 4T25, mas muda o centro de gravidade para execução financeira: ROE, NII, Bradsaúde/capital e crédito com provisão mais conservadora.",
+    "mudancas": [
+      {
+        "tema": "ROE e rentabilidade",
+        "direcao": "elevado",
+        "descricao": "4T25 enfatizava superação do custo de capital; 1T26 reforça novo patamar com ROE maior e crescimento sequencial.",
+        "evidencia_atual": {
+          "citacao": "entregando um ROE de 15,8%. No último trimestre de 2025, entregamos um ROE de cerca de 15,2%.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2"
+        },
+        "evidencia_anterior": {
+          "citacao": "ROE de 15,2%, superando o nosso custo de capital pela primeira vez nesses últimos trimestres.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2"
+        }
+      },
+      {
+        "tema": "Bradsaúde e capital",
+        "direcao": "novo",
+        "descricao": "A abertura/listagem de Bradsaúde vira evento concreto de destravamento de valor e melhora de capital no 1T26.",
+        "evidencia_atual": {
+          "citacao": "concluímos o lançamento da Brad saúde, que consolidou todos os ativos de saúde da nossa organização.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2"
+        },
+        "evidencia_anterior": null
+      },
+      {
+        "tema": "Crédito e PDD",
+        "direcao": "elevado",
+        "descricao": "O 1T26 traz maior ênfase em custo de crédito, caso específico no atacado e rural antigo, embora o discurso siga controlado.",
+        "evidencia_atual": {
+          "citacao": "O custo de crédito foi um pouco maior",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2"
+        },
+        "evidencia_anterior": {
+          "citacao": "um crescimento com muita qualidade e, sobretudo, uma gestão rigorosa dos riscos",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 9"
+        }
+      },
+      {
+        "tema": "Tecnologia/IA",
+        "direcao": "reiterado",
+        "descricao": "O tema de AI first do 4T25 é reiterado no 1T26 como produtividade e transformação acelerada.",
+        "evidencia_atual": {
+          "citacao": "Nossa transformação continua muito acelerada, com uso cada vez maior de alta tecnologia e IA Generativa",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 2"
+        },
+        "evidencia_anterior": {
+          "citacao": "Para nós, aqui em tecnologia e lá na cultura é AI first.",
+          "speaker": "Marcelo Noronha",
+          "secao": "Slide 13"
+        }
+      }
+    ]
+  },
+  "perguntas_criticas": [
+    {
+      "analista": "Mário Pierry (Bank of America)",
+      "pergunta_resumo": "Sustentabilidade do crescimento de NII com apetite de crédito mais moderado e quais segmentos preocupam nos próximos 12 meses.",
+      "por_que_critica": "Testa se a expansão de margem é compatível com menor risco e com ciclo de crédito mais incerto.",
+      "resposta_resumo": "Management disse que apetite conservador não significa menor crescimento; NII deve crescer com NIM perto de 9%, mas com maior custo de crédito ligado à originação.",
+      "qualidade_resposta": "direta",
+      "avaliacao_resposta": "Boa resposta: conecta NII, NIM, mix de crédito e provisões. O ponto fraco é que não quantifica trajetória trimestral exata de custo de crédito.",
+      "trecho_pergunta": {
+        "citacao": "como você vê a evolução do NII com esse apetite mais moderado e quais segmentos mais te preocupam quando se olha para o crédito nos próximos 12 meses",
+        "speaker": "Mário Pierry",
+        "secao": "Q&A"
+      },
+      "trecho_resposta": {
+        "citacao": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    },
+    {
+      "analista": "Pedro Leduc (Itaú BBA)",
+      "pergunta_resumo": "Qual é a leitura sobre PDD, principalmente atacado, rural e efeito da Resolução 4.966.",
+      "por_que_critica": "PDD é o principal risco de qualidade do lucro em bancos quando o ROE volta a subir.",
+      "resposta_resumo": "Management atribuiu parte relevante a caso específico no atacado e à postura conservadora, além de pressão de crescimento de carteira sob 4.966.",
+      "qualidade_resposta": "parcial",
+      "avaliacao_resposta": "Explica drivers e dá conforto qualitativo, mas depende de julgamento sobre recuperação do caso específico.",
+      "trecho_pergunta": {
+        "citacao": "A segunda pergunta refere -se a PDD (provisão para devedores duvidosos)",
+        "speaker": "Pedro Leduc",
+        "secao": "Q&A"
+      },
+      "trecho_resposta": {
+        "citacao": "Decidimos agravar a provisão por uma postura mais conservadora.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2/Q&A"
+      }
+    },
+    {
+      "analista": "Henrique Navarro (Santander)",
+      "pergunta_resumo": "Potencial de ROE e excesso de capital após Bradsaúde.",
+      "por_que_critica": "Define se a tese passa de recuperação operacional para retorno de capital/ROE estrutural.",
+      "resposta_resumo": "Management enfatizou ROE de 15,8% versus custo de capital próximo de 14,5% e qualidade de balanço, sem prometer payout ou recompra.",
+      "qualidade_resposta": "parcial",
+      "avaliacao_resposta": "Resposta prudente: dá direção de criação de valor, mas evita compromisso explícito de distribuição de capital.",
+      "trecho_pergunta": {
+        "citacao": "Minha pergunta é sobre o ROE ( return on equity ) sustentável",
+        "speaker": "Henrique Navarro",
+        "secao": "Q&A"
+      },
+      "trecho_resposta": {
+        "citacao": "entregamo s agora de 15,8% contra um custo de capital que deve estar hoje mais próximo de 14,5%",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    }
+  ],
+  "red_flags": [
+    {
+      "tipo": "cautela_excessiva",
+      "descricao": "O management reforça conservadorismo em crédito e agravo de provisão; não é alarmante, mas sinaliza que parte do custo de crédito pode continuar subindo com crescimento de carteira.",
+      "severidade": 3,
+      "trecho": {
+        "citacao": "O custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2"
+      }
+    },
+    {
+      "tipo": "evasao",
+      "descricao": "Parte das perguntas não respondidas na call ficou para RI, o que reduz transparência imediata sobre temas remanescentes.",
+      "severidade": 2,
+      "trecho": {
+        "citacao": "as perguntas que não pudemos responder serão respondidas no futuro por nossa equipe de RI",
+        "speaker": "André Carvalho",
+        "secao": "Encerramento Q&A"
+      }
+    }
+  ],
+  "surprise": {
+    "score": 7,
+    "resumo": "Surpresa moderadamente alta: Bradsaúde destravou valor relevante e fortaleceu capital; NII/NIM segue com mensagem mais forte que a cautela de crédito poderia sugerir.",
+    "justificativa": "Sem usar consenso externo, a intensidade da fala sobre mais-valia da Bradsaúde, ROE acima do custo de capital e NIM perto de 9% sugere informação incremental relevante para a tese.",
+    "evidencias": [
+      {
+        "citacao": "Ela está avaliada em cerca de R$ 46 bilhões em valor de mercado, o que significa que trouxe uma mais-valia superior a R$ 30 bilhões para a nossa organização.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Slide 2"
+      },
+      {
+        "citacao": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos.",
+        "speaker": "Marcelo Noronha",
+        "secao": "Q&A"
+      }
+    ]
+  },
+  "auditoria_citacoes": [
+    {
+      "onde": "tom.evidencias[1]",
+      "citacao": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Nosso lucro líquido recorrente do primeiro trimestre de 2026 foi de R$ 6,8 bilhões, um crescimento de 16,1% a/a e 4,5% t/t, entregando um ROE de 15,8%."
+    },
+    {
+      "onde": "tom.evidencias[2]",
+      "citacao": "Deixamos claro o nosso apetite moderado. Tenho falado de apetite moderado para todo o mercado há vários trimestres.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Deixamos claro o nosso apetite moderado. Tenho falado de apetite moderado para todo o mercado há vários trimestres."
+    },
+    {
+      "onde": "tom.evidencias[3]",
+      "citacao": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos."
+    },
+    {
+      "onde": "pergunta_critica[1].pergunta",
+      "citacao": "como você vê a evolução do NII com esse apetite mais moderado e quais segmentos mais te preocupam quando se olha para o crédito nos próximos 12 meses",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "como você vê a evolução do NII com esse apetite mais moderado e quais segmentos mais te preocupam quando se olha para o crédito nos próximos 12 meses"
+    },
+    {
+      "onde": "pergunta_critica[1].resposta",
+      "citacao": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos."
+    },
+    {
+      "onde": "pergunta_critica[2].pergunta",
+      "citacao": "A segunda pergunta refere -se a PDD (provisão para devedores duvidosos)",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "A segunda pergunta refere -se a PDD (provisão para devedores duvidosos)"
+    },
+    {
+      "onde": "pergunta_critica[2].resposta",
+      "citacao": "Decidimos agravar a provisão por uma postura mais conservadora.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Decidimos agravar a provisão por uma postura mais conservadora."
+    },
+    {
+      "onde": "pergunta_critica[3].pergunta",
+      "citacao": "Minha pergunta é sobre o ROE ( return on equity ) sustentável",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Minha pergunta é sobre o ROE ( return on equity ) sustentável"
+    },
+    {
+      "onde": "pergunta_critica[3].resposta",
+      "citacao": "entregamo s agora de 15,8% contra um custo de capital que deve estar hoje mais próximo de 14,5%",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "entregamo s agora de 15,8% contra um custo de capital que deve estar hoje mais próximo de 14,5%"
+    },
+    {
+      "onde": "red_flags[1]",
+      "citacao": "O custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "O custo de crédito foi um pouco maior, e comentarei isso um pouco mais adiante"
+    },
+    {
+      "onde": "red_flags[2]",
+      "citacao": "as perguntas que não pudemos responder serão respondidas no futuro por nossa equipe de RI",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "as perguntas que não pudemos responder serão respondidas no futuro por nossa equipe de RI"
+    },
+    {
+      "onde": "surprise.evidencias[1]",
+      "citacao": "Ela está avaliada em cerca de R$ 46 bilhões em valor de mercado, o que significa que trouxe uma mais-valia superior a R$ 30 bilhões para a nossa organização.",
+      "status": "aproximada",
+      "similaridade": 0.887,
+      "trecho_encontrado": "o importante. ela está avaliada em cerca de r$ 46 bilhões em valor de mercado, o que significa que trouxe uma mais -valia superior a r$ 30 bilhões para a nossa organização. portanto, é um movimento"
+    },
+    {
+      "onde": "surprise.evidencias[2]",
+      "citacao": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Portanto, vejo o NII crescendo, com uma NIM ao redor de 9%, como mostramos."
+    },
+    {
+      "onde": "comparacao[1].atual",
+      "citacao": "entregando um ROE de 15,8%. No último trimestre de 2025, entregamos um ROE de cerca de 15,2%.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "entregando um ROE de 15,8%. No último trimestre de 2025, entregamos um ROE de cerca de 15,2%."
+    },
+    {
+      "onde": "comparacao[1].anterior",
+      "citacao": "ROE de 15,2%, superando o nosso custo de capital pela primeira vez nesses últimos trimestres.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "ROE de 15,2%, superando o nosso custo de capital pela primeira vez nesses últimos trimestres."
+    },
+    {
+      "onde": "comparacao[2].atual",
+      "citacao": "concluímos o lançamento da Brad saúde, que consolidou todos os ativos de saúde da nossa organização.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "concluímos o lançamento da Brad saúde, que consolidou todos os ativos de saúde da nossa organização."
+    },
+    {
+      "onde": "comparacao[3].atual",
+      "citacao": "O custo de crédito foi um pouco maior",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "O custo de crédito foi um pouco maior"
+    },
+    {
+      "onde": "comparacao[3].anterior",
+      "citacao": "um crescimento com muita qualidade e, sobretudo, uma gestão rigorosa dos riscos",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "um crescimento com muita qualidade e, sobretudo, uma gestão rigorosa dos riscos"
+    },
+    {
+      "onde": "comparacao[4].atual",
+      "citacao": "Nossa transformação continua muito acelerada, com uso cada vez maior de alta tecnologia e IA Generativa",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Nossa transformação continua muito acelerada, com uso cada vez maior de alta tecnologia e IA Generativa"
+    },
+    {
+      "onde": "comparacao[4].anterior",
+      "citacao": "Para nós, aqui em tecnologia e lá na cultura é AI first.",
+      "status": "encontrada",
+      "similaridade": 1.0,
+      "trecho_encontrado": "Para nós, aqui em tecnologia e lá na cultura é AI first."
+    }
+  ],
+  "validacao_finbert": [],
+  "avisos_validacao": []
+}

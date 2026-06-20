@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+data/painel.csv
+.DS_Store

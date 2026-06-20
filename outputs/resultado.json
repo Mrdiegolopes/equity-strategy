@@ -1,0 +1,214 @@
+{
+  "cenario_input": "Selic sobe 2 pontos, real deprecia 10%, commodities caem 15%, bolsa recua 5%",
+  "choque": {
+    "d_selic": 2.0,
+    "d_cambio": 0.1,
+    "ret_commodity": -0.15,
+    "ret_mercado": -0.05,
+    "horizonte_meses": 12,
+    "confianca_extracao": "alta",
+    "premissas": [
+      "Horizonte de 12 meses assumido pois o cenario nao especificou prazo."
+    ]
+  },
+  "setores_beneficiados": [
+    {
+      "setor": "Agro_Alimentos",
+      "impacto_estimado": 0.053256673949022296,
+      "confianca": "media",
+      "r2": 0.26241859924537203,
+      "contribuicoes": {
+        "d_selic": 0.04861527387343706,
+        "d_cambio": 0.060920399249860924,
+        "ret_commodity": -0.014755486629075434,
+        "ret_mercado": -0.04152351254520026
+      },
+      "mecanismo": "A depreciação cambial de 10% é o fator dominante positivo (contribuição de +0,061), pois produtores e processadores agrícolas faturam em dólar ou têm preços indexados ao mercado externo, ampliando receitas em reais. A queda de commodities (-0,015) atenua parcialmente o ganho, mas o resultado líquido ainda é positivo, ainda que com R² de 0,26 — relação histórica de confiança média, o que recomenda cautela na magnitude da estimativa."
+    },
+    {
+      "setor": "Papel_Celulose",
+      "impacto_estimado": -0.008729269456041699,
+      "confianca": "media",
+      "r2": 0.13381612209214033,
+      "contribuicoes": {
+        "d_selic": -0.026060628088327667,
+        "d_cambio": 0.05295696801707296,
+        "ret_commodity": -0.005981033280497671,
+        "ret_mercado": -0.029644576104289323
+      },
+      "mecanismo": "O câmbio é o motor central (contribuição de +0,053): celulose é uma commodity exportada precificada em dólar, e a desvalorização do real eleva diretamente a receita líquida das produtoras brasileiras. O efeito negativo da Selic mais alta (-0,026) e do mercado fraco (-0,030) compensam parte do ganho cambial, resultando em impacto líquido levemente negativo — o setor aparece como segundo 'menos prejudicado'. Atenção: R² de 0,13 indica relação histórica fraca, reduzindo a confiança na estimativa."
+    },
+    {
+      "setor": "Petroleo_Gas",
+      "impacto_estimado": -0.013352679238365903,
+      "confianca": "alta",
+      "r2": 0.4321399868285448,
+      "contribuicoes": {
+        "d_selic": 0.040771574585989005,
+        "d_cambio": 0.0521761079023168,
+        "ret_commodity": -0.046904259096533334,
+        "ret_mercado": -0.05939610263013837
+      },
+      "mecanismo": "Câmbio (+0,052) e Selic (+0,041) contribuem positivamente: as receitas de petróleo são dolarizadas, protegendo as empresas da desvalorização, enquanto a Selic mais alta pode refletir um ambiente de preços elevados que historicamente coincide com resultados positivos do setor. A queda de commodities (-0,047) e o recuo do mercado (-0,059) pressionam, resultando em impacto líquido negativo mas menos severo que outros setores. R² de 0,43 confere confiança alta à relação."
+    },
+    {
+      "setor": "Consumo_Defensivo",
+      "impacto_estimado": -0.026091219858395586,
+      "confianca": "media",
+      "r2": 0.49008304610409403,
+      "contribuicoes": {
+        "d_selic": 0.0018133991659061858,
+        "d_cambio": 0.005800583492593029,
+        "ret_commodity": 0.002768630818562838,
+        "ret_mercado": -0.03647383333545764
+      },
+      "mecanismo": "O fator dominante é o retorno de mercado (-0,036): em ambiente de aversão ao risco e bolsa em queda, mesmo setores defensivos são arrastados por movimentos de liquidação generalizada. A insensibilidade à Selic (+0,002) confirma o caráter não-cíclico do setor, mas não é suficiente para compensar a correlação com o beta de mercado. R² de 0,49 indica ajuste razoável."
+    },
+    {
+      "setor": "Varejo_Discricionario",
+      "impacto_estimado": -0.050917152663459996,
+      "confianca": "media",
+      "r2": 0.46770864498856557,
+      "contribuicoes": {
+        "d_selic": -0.024445635084588236,
+        "d_cambio": 0.03375964234702302,
+        "ret_commodity": 0.010940494608407616,
+        "ret_mercado": -0.0711716545343024
+      },
+      "mecanismo": "O mercado domina negativamente (-0,071) e a Selic penaliza (-0,024): consumidores de bens discricionários são os primeiros a retrair gastos com crédito mais caro, e o setor tem beta elevado com a bolsa. O câmbio contribui positivamente de forma parcial (+0,034, possivelmente via importadores repassando preços), mas é insuficiente para reverter o impacto negativo líquido. R² de 0,47 indica ajuste razoável."
+    }
+  ],
+  "setores_prejudicados": [
+    {
+      "setor": "Mineracao_Siderurgia",
+      "impacto_estimado": -0.14478158543579195,
+      "confianca": "alta",
+      "r2": 0.4025112872295752,
+      "contribuicoes": {
+        "d_selic": -0.0477989377532748,
+        "d_cambio": -0.01967637171242789,
+        "ret_commodity": -0.04421267869901572,
+        "ret_mercado": -0.03309359727107352
+      },
+      "mecanismo": "É o setor mais penalizado: a Selic (-0,048) eleva o custo de capital de empresas intensivas em ativos e alavancadas, a queda de commodities (-0,044) comprime diretamente as margens e receitas, e o câmbio, que em teoria beneficiaria exportadores, contribui negativamente (-0,020) — possivelmente por custos de insumos e dívidas em dólar. O triplo negativo resulta no maior impacto estimado adverso do ranking. R² de 0,40 com confiança alta."
+    },
+    {
+      "setor": "Imobiliario_Construcao",
+      "impacto_estimado": -0.10115776342193689,
+      "confianca": "alta",
+      "r2": 0.5383783173484482,
+      "contribuicoes": {
+        "d_selic": -0.05221414116700478,
+        "d_cambio": -0.005603164191879756,
+        "ret_commodity": 0.0261343126704524,
+        "ret_mercado": -0.06947477073350475
+      },
+      "mecanismo": "A Selic é o principal algoz (-0,052): o setor imobiliário depende estruturalmente de crédito de longo prazo e financiamento habitacional — com a taxa básica 2pp mais alta, tanto o custo de capital das construtoras quanto o crédito ao consumidor encarecem, deprimindo lançamentos e velocidade de vendas. O mercado reforça o impacto (-0,069). R² de 0,54, o segundo mais alto dos setores prejudicados, confere alta confiança."
+    },
+    {
+      "setor": "Bancos",
+      "impacto_estimado": -0.07443500966715884,
+      "confianca": "alta",
+      "r2": 0.7055694256594871,
+      "contribuicoes": {
+        "d_selic": -0.012917212478399859,
+        "d_cambio": -0.034348630160217886,
+        "ret_commodity": 0.017199793881356198,
+        "ret_mercado": -0.044368960909897295
+      },
+      "mecanismo": "O câmbio é o fator mais penalizante (-0,034), provavelmente via deterioração da qualidade de crédito de clientes importadores e elevação de inadimplência em carteiras expostas à variação cambial. O mercado também pressiona (-0,044). Paradoxalmente, a Selic mais alta poderia ampliar spreads, mas historicamente o efeito líquido é negativo neste horizonte, possivelmente por aumento de provisões. R² de 0,71 — o maior do ranking — confere alta confiança à estimativa."
+    },
+    {
+      "setor": "Utilities_Energia",
+      "impacto_estimado": -0.062173905182356076,
+      "confianca": "alta",
+      "r2": 0.5023328216976557,
+      "contribuicoes": {
+        "d_selic": -0.006505147604308752,
+        "d_cambio": -0.022238833224553747,
+        "ret_commodity": -0.0017005156125794118,
+        "ret_mercado": -0.03172940874091417
+      },
+      "mecanismo": "O câmbio deprecia custos de insumos e equipamentos importados (-0,022) e o mercado em queda arrasta o setor (-0,032). Utilities têm receitas reguladas em reais, sem proteção cambial natural, enquanto parte das dívidas pode ser indexada em moeda estrangeira. R² de 0,50 com confiança alta."
+    },
+    {
+      "setor": "Saneamento",
+      "impacto_estimado": -0.05988103020115796,
+      "confianca": "media",
+      "r2": 0.4677049851222944,
+      "contribuicoes": {
+        "d_selic": -0.024383311462182727,
+        "d_cambio": -0.005085714707536698,
+        "ret_commodity": 0.011744798972951302,
+        "ret_mercado": -0.042156803004389835
+      },
+      "mecanismo": "A Selic elevada (-0,024) e o mercado fraco (-0,042) são os vetores negativos: empresas de saneamento são intensivas em capital e possuem cronogramas de investimento regulatório de longo prazo, tornando seu valuation muito sensível à taxa de desconto. O câmbio tem impacto pequeno e negativo (-0,005), coerente com a natureza doméstica do serviço. R² de 0,47 com confiança média."
+    }
+  ],
+  "tickers_positivos": [
+    {
+      "ticker": "SLCE3.SA",
+      "setor": "Agro_Alimentos",
+      "justificativa": "SLC Agrícola é uma das maiores produtoras de grãos (soja, milho, algodão) do Brasil, com receitas majoritariamente dolarizadas e exportações relevantes. A depreciação cambial de 10% se traduz diretamente em ampliação de margens em reais, sem exposição relevante a dívida em moeda estrangeira que cancele o benefício."
+    },
+    {
+      "ticker": "SMTO3.SA",
+      "setor": "Agro_Alimentos",
+      "justificativa": "São Martinho opera no segmento de açúcar e etanol, com parcela significativa de receita em dólar via exportações de açúcar. A desvalorização cambial amplifica receitas em reais, e o setor sucroenergético tem correlação positiva com o cenário de câmbio depreciado e commodities agrícolas ainda sustentadas."
+    },
+    {
+      "ticker": "SUZB3.SA",
+      "setor": "Papel_Celulose",
+      "justificativa": "Suzano é a maior produtora de celulose de eucalipto do mundo e exporta praticamente toda sua produção precificada em dólar. O ganho cambial de +0,053 estimado para o setor recai de forma concentrada sobre a Suzano, que alia escala operacional e baixo custo de produção para maximizar o benefício da depreciação do real. Ressalva: R² setorial baixo (0,13) sugere cautela."
+    },
+    {
+      "ticker": "PRIO3.SA",
+      "setor": "Petroleo_Gas",
+      "justificativa": "PetroRio é uma produtora independente de petróleo com receitas 100% dolarizadas e sem o componente de refino doméstico que cria exposição reversa ao câmbio. Isso a torna a mais pura beneficiária cambial do setor, além de operar com custos de extração (lifting cost) competitivos que preservam margem mesmo com commodities em queda parcial."
+    }
+  ],
+  "tickers_negativos": [
+    {
+      "ticker": "VALE3.SA",
+      "setor": "Mineracao_Siderurgia",
+      "justificativa": "Vale concentra a maior exposição ao colapso de commodities metálicas (-0,044 de contribuição setorial): minério de ferro é seu principal produto e caiu junto com o choque de -15% em commodities. Adicionalmente, a empresa tem dívida e compromissos em dólar que encarecem com o câmbio depreciado, ao contrário de puras exportadoras. O triplo negativo (Selic, commodity, câmbio) do setor se materializa com força máxima em VALE3."
+    },
+    {
+      "ticker": "CYRE3.SA",
+      "setor": "Imobiliario_Construcao",
+      "justificativa": "Cyrela atua no segmento de média-alta renda, cujos clientes são altamente sensíveis ao custo do crédito imobiliário. Com Selic subindo 2pp, o financiamento habitacional encarece e a velocidade de vendas cai, comprimindo lançamentos e resultados. A empresa tem beta elevado com o ciclo de juros — fator que domina o impacto negativo do setor com contribuição de -0,052."
+    },
+    {
+      "ticker": "MRVE3.SA",
+      "setor": "Imobiliario_Construcao",
+      "justificativa": "MRV, focada no segmento econômico (Minha Casa Minha Vida), paradoxalmente também é vulnerável: depende do crédito subsidiado cuja atratividade relativa diminui quando a Selic sobe, e a empresa carrega alavancagem operacional elevada com estoque de imóveis financiado. O encarecimento do capital de giro pressiona margens já mais estreitas nesse segmento."
+    },
+    {
+      "ticker": "MGLU3.SA",
+      "setor": "Varejo_Discricionario",
+      "justificativa": "Magazine Luiza tem beta de mercado elevado e modelo de negócio altamente dependente de crédito ao consumidor (financiamento de eletroeletrônicos e móveis). Com Selic 2pp mais alta e mercado recuando 5%, o custo de captação do braço financeiro aumenta e a inadimplência da base de clientes tende a crescer, comprimindo receitas financeiras e volume de vendas simultaneamente."
+    },
+    {
+      "ticker": "BBDC4.SA",
+      "setor": "Bancos",
+      "justificativa": "Bradesco possui uma carteira de crédito com maior exposição relativa a pessoas físicas e PMEs — segmentos mais sensíveis ao ciclo de juros e câmbio. Em ambiente de Selic alta e real depreciado, a inadimplência tende a subir nessas carteiras, exigindo provisões adicionais que penalizam o resultado. O R² de 0,71 do setor confere alta confiança ao impacto negativo estimado."
+    }
+  ],
+  "riscos": [
+    {
+      "risco": "Reversão do choque cambial: real se aprecia por fluxo de capital ou intervenção do Banco Central",
+      "impacto": "Os setores exportadores (Agro_Alimentos, Papel_Celulose, Petroleo_Gas) perderiam o principal fator positivo da tese — a contribuição cambial que sustenta os impactos estimados positivos — podendo migrar para território negativo. Simultaneamente, Bancos e Utilities seriam parcialmente aliviados."
+    },
+    {
+      "risco": "Commodities não caem 15% ou se recuperam antes do horizonte de 12 meses (ex: conflito geopolítico ou corte de oferta da OPEP+)",
+      "impacto": "Mineracao_Siderurgia e Petroleo_Gas seriam menos prejudicados do que o modelo estima, invertendo parcialmente o ranking. A contribuição negativa de ret_commodity (-0,044 e -0,047 respectivamente) deixaria de se materializar, reduzindo o impacto negativo estimado — e potencialmente transformando Petroleo_Gas em setor claramente beneficiado."
+    },
+    {
+      "risco": "Ciclo de crédito imobiliário protegido por programas governamentais (expansão do Minha Casa Minha Vida ou subsídios de taxa)",
+      "impacto": "Imobiliario_Construcao é o segundo setor mais prejudicado com R² alto (0,54), mas política fiscal expansionista pode desacoplar o segmento econômico da trajetória da Selic, invalidando a contribuição dominante negativa de -0,052 da taxa de juros e reduzindo significativamente o impacto adverso estimado para MRVE3 e similares."
+    }
+  ],
+  "avisos_validacao": [
+    "Ticker 'MGLU3.SA' (Varejo_Discricionario) nao esta entre os setores esperados desta direcao."
+  ]
+}

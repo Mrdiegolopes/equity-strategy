@@ -1,0 +1,326 @@
+{
+  "Bancos": {
+    "alpha": 0.005228424902919622,
+    "betas": {
+      "d_selic": -0.006458506162118613,
+      "d_cambio": -0.34348519000811895,
+      "ret_commodity": -0.11466512397394418,
+      "ret_mercado": 0.8873795401766789
+    },
+    "pvalues": {
+      "d_selic": 0.5191204507612623,
+      "d_cambio": 0.02942722572373179,
+      "ret_commodity": 0.00477029813180602,
+      "ret_mercado": 7.549968118240256e-05
+    },
+    "r2": 0.7055695013601512,
+    "r2_adj": 0.6931724277332102,
+    "rmse": 0.041159387837467885,
+    "durbin_watson": 2.187062019648865,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Petroleo_Gas": {
+    "alpha": 0.01969375493236908,
+    "betas": {
+      "d_selic": 0.02038576938118401,
+      "d_cambio": 0.5217609240214824,
+      "ret_commodity": 0.31269523884301614,
+      "ret_mercado": 1.1879218228562503
+    },
+    "pvalues": {
+      "d_selic": 0.17621709137616537,
+      "d_cambio": 0.03580997153931949,
+      "ret_commodity": 0.04317906291973176,
+      "ret_mercado": 1.5435536806417193e-12
+    },
+    "r2": 0.4321399827952227,
+    "r2_adj": 0.4082300873339689,
+    "rmse": 0.08044114572401652,
+    "durbin_watson": 1.8279298719961294,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Mineracao_Siderurgia": {
+    "alpha": 0.008758199529265948,
+    "betas": {
+      "d_selic": -0.02389944719413727,
+      "d_cambio": -0.19676350870978432,
+      "ret_commodity": 0.2947514509155568,
+      "ret_mercado": 0.6618719772003653
+    },
+    "pvalues": {
+      "d_selic": 0.06651580879769722,
+      "d_cambio": 0.40543479532523874,
+      "ret_commodity": 2.2436936809601357e-06,
+      "ret_mercado": 2.7672307672073662e-05
+    },
+    "r2": 0.4025113182195903,
+    "r2_adj": 0.37735390003936253,
+    "rmse": 0.07265934014943891,
+    "durbin_watson": 2.205265426930125,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Varejo_Discricionario": {
+    "alpha": -0.011582723246050475,
+    "betas": {
+      "d_selic": -0.012222810573021643,
+      "d_cambio": 0.3375960456721274,
+      "ret_commodity": -0.07293663368125723,
+      "ret_mercado": 1.42343296185706
+    },
+    "pvalues": {
+      "d_selic": 0.4396554896994348,
+      "d_cambio": 0.1392216704014697,
+      "ret_commodity": 0.4373212963168197,
+      "ret_mercado": 2.5581689585660635e-10
+    },
+    "r2": 0.46770864417681535,
+    "r2_adj": 0.44529637656320764,
+    "rmse": 0.08310239609231206,
+    "durbin_watson": 1.8731319748054542,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Consumo_Defensivo": {
+    "alpha": -0.0027222993304246348,
+    "betas": {
+      "d_selic": 0.0009066984306575986,
+      "d_cambio": 0.05800590508077925,
+      "ret_commodity": -0.018457334372206233,
+      "ret_mercado": 0.7294764984993187
+    },
+    "pvalues": {
+      "d_selic": 0.917836165488517,
+      "d_cambio": 0.6798814841117686,
+      "ret_commodity": 0.7496222710444693,
+      "ret_mercado": 2.551373784345282e-09
+    },
+    "r2": 0.49008295007596936,
+    "r2_adj": 0.46861275850022077,
+    "rmse": 0.043869780604547215,
+    "durbin_watson": 2.352686192453562,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Utilities_Energia": {
+    "alpha": 0.01183814183472109,
+    "betas": {
+      "d_selic": -0.003252596678227823,
+      "d_cambio": -0.22238811940237127,
+      "ret_commodity": 0.011336758419109206,
+      "ret_mercado": 0.6345881560019857
+    },
+    "pvalues": {
+      "d_selic": 0.6581667408194037,
+      "d_cambio": 0.09944912222000163,
+      "ret_commodity": 0.8218432591862999,
+      "ret_mercado": 1.5935578267431016e-05
+    },
+    "r2": 0.5023329048579336,
+    "r2_adj": 0.4813785008519519,
+    "rmse": 0.0461207376699367,
+    "durbin_watson": 2.165055407445454,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Saneamento": {
+    "alpha": 0.01615877892398903,
+    "betas": {
+      "d_selic": -0.012191658410321795,
+      "d_cambio": -0.05085722546423102,
+      "ret_commodity": -0.07829843325868976,
+      "ret_mercado": 0.843135895740367
+    },
+    "pvalues": {
+      "d_selic": 0.386480361978385,
+      "d_cambio": 0.7274276697142685,
+      "ret_commodity": 0.2977584991878667,
+      "ret_mercado": 1.8981615147024213e-20
+    },
+    "r2": 0.46770492258353313,
+    "r2_adj": 0.44529249827126094,
+    "rmse": 0.05607443695031779,
+    "durbin_watson": 2.1182278726080046,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Papel_Celulose": {
+    "alpha": 0.0017300412678316335,
+    "betas": {
+      "d_selic": -0.013030296372870037,
+      "d_cambio": 0.5295698873908025,
+      "ret_commodity": 0.0398736401517485,
+      "ret_mercado": 0.592891551490339
+    },
+    "pvalues": {
+      "d_selic": 0.33661723421725387,
+      "d_cambio": 0.027440774111645014,
+      "ret_commodity": 0.662011907980444,
+      "ret_mercado": 6.601773210644131e-05
+    },
+    "r2": 0.13381606521045353,
+    "r2_adj": 0.09734516269299898,
+    "rmse": 0.07293253576807042,
+    "durbin_watson": 1.9912076090468163,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Saude": {
+    "alpha": -0.009369358991566518,
+    "betas": {
+      "d_selic": -0.02608761174672438,
+      "d_cambio": 0.38599332968233246,
+      "ret_commodity": -0.07920430716534858,
+      "ret_mercado": 1.0432644117569791
+    },
+    "pvalues": {
+      "d_selic": 0.012006890915877002,
+      "d_cambio": 0.09235440505002777,
+      "ret_commodity": 0.22186509796401288,
+      "ret_mercado": 2.9782567214216896e-08
+    },
+    "r2": 0.43394687020700096,
+    "r2_adj": 0.41011305421571687,
+    "rmse": 0.06304379411233406,
+    "durbin_watson": 1.4915795464292392,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Imobiliario_Construcao": {
+    "alpha": 0.0025037539347342094,
+    "betas": {
+      "d_selic": -0.026107046752582297,
+      "d_cambio": -0.05603147921899018,
+      "ret_commodity": -0.174228816539496,
+      "ret_mercado": 1.3894956244521017
+    },
+    "pvalues": {
+      "d_selic": 0.10854195673529748,
+      "d_cambio": 0.8156669562506728,
+      "ret_commodity": 0.026065094081833804,
+      "ret_mercado": 5.676223428248615e-10
+    },
+    "r2": 0.5383784726211991,
+    "r2_adj": 0.5189417767315654,
+    "rmse": 0.0793616755114115,
+    "durbin_watson": 1.9182440098327702,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Transporte_Logistica": {
+    "alpha": 0.0018779009764827164,
+    "betas": {
+      "d_selic": -0.012448129651535422,
+      "d_cambio": 0.03354394228811278,
+      "ret_commodity": -0.08940798348843455,
+      "ret_mercado": 0.9105934254123065
+    },
+    "pvalues": {
+      "d_selic": 0.29163910229276957,
+      "d_cambio": 0.8445030953886276,
+      "ret_commodity": 0.19427560205595862,
+      "ret_mercado": 1.4885293294577902e-14
+    },
+    "r2": 0.5136000410251449,
+    "r2_adj": 0.4931200427525194,
+    "rmse": 0.05276364156672156,
+    "durbin_watson": 2.001438757919398,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  },
+  "Agro_Alimentos": {
+    "alpha": 0.0025916550865846683,
+    "betas": {
+      "d_selic": 0.024307653357023794,
+      "d_cambio": 0.6092039700588376,
+      "ret_commodity": 0.09836993452948176,
+      "ret_mercado": 0.8304699022172053
+    },
+    "pvalues": {
+      "d_selic": 0.10568185198484456,
+      "d_cambio": 0.019674343870405377,
+      "ret_commodity": 0.2209789267077069,
+      "ret_mercado": 4.687150380668651e-10
+    },
+    "r2": 0.2624184584915682,
+    "r2_adj": 0.23136239358595012,
+    "rmse": 0.06767030052409502,
+    "durbin_watson": 2.0017519423103867,
+    "n_obs": 100,
+    "fatores": [
+      "d_selic",
+      "d_cambio",
+      "ret_commodity",
+      "ret_mercado"
+    ],
+    "winsorizado": true
+  }
+}

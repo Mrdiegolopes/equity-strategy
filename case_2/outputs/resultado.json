@@ -1,0 +1,197 @@
+{
+  "cenario_input": "Selic sobe 2 pontos, real deprecia 10%, commodities caem 15%, bolsa recua 5%",
+  "choque": {
+    "d_selic": 2.0,
+    "d_cambio": 0.1,
+    "ret_commodity": -0.15,
+    "ret_mercado": -0.05,
+    "horizonte_meses": 12,
+    "confianca_extracao": "alta",
+    "premissas": [
+      "Horizonte nao foi mencionado explicitamente; assumido 12 meses como padrao."
+    ]
+  },
+  "setores_beneficiados": [
+    {
+      "setor": "Agro_Alimentos",
+      "impacto_estimado": 0.05325671842964882,
+      "confianca": "media",
+      "r2": 0.2624184584915682,
+      "contribuicoes": {
+        "d_selic": 0.04861530671404759,
+        "d_cambio": 0.06092039700588377,
+        "ret_commodity": -0.014755490179422263,
+        "ret_mercado": -0.041523495110860266
+      },
+      "mecanismo": "Câmbio domina (+0,061): receitas dolarizadas amplificadas pela depreciação do real, compensando queda de commodities. R2 baixo, cautela."
+    },
+    {
+      "setor": "Papel_Celulose",
+      "impacto_estimado": -0.00872922760393905,
+      "confianca": "media",
+      "r2": 0.13381606521045353,
+      "contribuicoes": {
+        "d_selic": -0.026060592745740074,
+        "d_cambio": 0.05295698873908025,
+        "ret_commodity": -0.005981046022762274,
+        "ret_mercado": -0.029644577574516953
+      },
+      "mecanismo": "Câmbio domina (+0,053): exportadoras de celulose faturam em dólar, ganho cambial supera pressão da Selic. R2 muito baixo, cautela."
+    },
+    {
+      "setor": "Petroleo_Gas",
+      "impacto_estimado": -0.01335274580474867,
+      "confianca": "alta",
+      "r2": 0.4321399827952227,
+      "contribuicoes": {
+        "d_selic": 0.04077153876236802,
+        "d_cambio": 0.052176092402148246,
+        "ret_commodity": -0.04690428582645242,
+        "ret_mercado": -0.05939609114281252
+      },
+      "mecanismo": "Câmbio (+0,052) e Selic (+0,041) positivos, mas queda de commodity (-0,047) e mercado (-0,059) limitam o impacto líquido."
+    },
+    {
+      "setor": "Consumo_Defensivo",
+      "impacto_estimado": -0.02609123739974188,
+      "confianca": "media",
+      "r2": 0.49008295007596936,
+      "contribuicoes": {
+        "d_selic": 0.0018133968613151972,
+        "d_cambio": 0.005800590508077925,
+        "ret_commodity": 0.002768600155830935,
+        "ret_mercado": -0.03647382492496594
+      },
+      "mecanismo": "Mercado domina (-0,036): setor defensivo perde menos que o índice; exposição macro quase neutra nos demais fatores."
+    },
+    {
+      "setor": "Varejo_Discricionario",
+      "impacto_estimado": -0.05091716961949497,
+      "confianca": "media",
+      "r2": 0.46770864417681535,
+      "contribuicoes": {
+        "d_selic": -0.024445621146043286,
+        "d_cambio": 0.03375960456721274,
+        "ret_commodity": 0.010940495052188585,
+        "ret_mercado": -0.07117164809285301
+      },
+      "mecanismo": "Mercado castiga (-0,071) e Selic pressiona (-0,024); câmbio parcialmente compensa (+0,034). Setor menos prejudicado que os da base."
+    }
+  ],
+  "setores_prejudicados": [
+    {
+      "setor": "Mineracao_Siderurgia",
+      "impacto_estimado": -0.14478156175660478,
+      "confianca": "alta",
+      "r2": 0.4025113182195903,
+      "contribuicoes": {
+        "d_selic": -0.04779889438827454,
+        "d_cambio": -0.019676350870978434,
+        "ret_commodity": -0.044212717637333525,
+        "ret_mercado": -0.03309359886001827
+      },
+      "mecanismo": "Selic (-0,048) e commodity (-0,044) dominam: custo de capital sobe e preço do minério cede simultaneamente."
+    },
+    {
+      "setor": "Imobiliario_Construcao",
+      "impacto_estimado": -0.1011577001687443,
+      "confianca": "alta",
+      "r2": 0.5383784726211991,
+      "contribuicoes": {
+        "d_selic": -0.052214093505164594,
+        "d_cambio": -0.005603147921899018,
+        "ret_commodity": 0.026134322480924402,
+        "ret_mercado": -0.06947478122260509
+      },
+      "mecanismo": "Selic domina (-0,052): crédito imobiliário encarece, demanda por imóveis contrai; mercado amplifica (-0,069)."
+    },
+    {
+      "setor": "Bancos",
+      "impacto_estimado": -0.07443473973779144,
+      "confianca": "alta",
+      "r2": 0.7055695013601512,
+      "contribuicoes": {
+        "d_selic": -0.012917012324237226,
+        "d_cambio": -0.03434851900081189,
+        "ret_commodity": 0.017199768596091628,
+        "ret_mercado": -0.044368977008833944
+      },
+      "mecanismo": "Mercado (-0,044) e câmbio (-0,034) dominam: depreciação eleva inadimplência de devedores com passivo em dólar. R2 alto, sinal robusto."
+    },
+    {
+      "setor": "Utilities_Energia",
+      "impacto_estimado": -0.062173926859658446,
+      "confianca": "alta",
+      "r2": 0.5023329048579336,
+      "contribuicoes": {
+        "d_selic": -0.006505193356455646,
+        "d_cambio": -0.02223881194023713,
+        "ret_commodity": -0.0017005137628663808,
+        "ret_mercado": -0.03172940780009929
+      },
+      "mecanismo": "Câmbio (-0,022) e mercado (-0,032): dívida indexada ao dólar/IPCA encarece; yield relativo pior frente à Selic mais alta."
+    },
+    {
+      "setor": "Saneamento",
+      "impacto_estimado": -0.059881069165281575,
+      "confianca": "media",
+      "r2": 0.46770492258353313,
+      "contribuicoes": {
+        "d_selic": -0.02438331682064359,
+        "d_cambio": -0.005085722546423102,
+        "ret_commodity": 0.011744764988803464,
+        "ret_mercado": -0.04215679478701835
+      },
+      "mecanismo": "Mercado (-0,042) e Selic (-0,024): empresas reguladas com alta dívida sofrem com custo de capital elevado. R2 baixo, cautela."
+    }
+  ],
+  "tickers_positivos": [
+    {
+      "ticker": "SLCE3.SA",
+      "setor": "Agro_Alimentos",
+      "justificativa": "Exportadora pura de grãos, receita majoritariamente em dólar, baixa alavancagem, beneficiada diretamente pela depreciação cambial."
+    },
+    {
+      "ticker": "SUZB3.SA",
+      "setor": "Papel_Celulose",
+      "justificativa": "Maior exportadora de celulose do país, ~95% da receita em dólar, hedge natural cambial robusto."
+    },
+    {
+      "ticker": "PRIO3.SA",
+      "setor": "Petroleo_Gas",
+      "justificativa": "Produtora pura de petróleo, baixo custo de extração, receita em dólar, menor exposição a passivos cambiais que a PETR4."
+    }
+  ],
+  "tickers_negativos": [
+    {
+      "ticker": "VALE3.SA",
+      "setor": "Mineracao_Siderurgia",
+      "justificativa": "Maior exposição ao minério de ferro: queda de commodity de 15% comprime margens diretamente; alavancagem amplifica impacto da Selic."
+    },
+    {
+      "ticker": "MRVE3.SA",
+      "setor": "Imobiliario_Construcao",
+      "justificativa": "Focada em baixa renda, altamente dependente de crédito subsidiado; Selic +2p.p. contrai funding e comprime velocidade de vendas."
+    },
+    {
+      "ticker": "BBDC4.SA",
+      "setor": "Bancos",
+      "justificativa": "Carteira com maior exposição a PMEs e crédito pessoal; inadimplência tende a subir mais rápido em ciclo de Selic alta e câmbio depreciado."
+    }
+  ],
+  "riscos": [
+    {
+      "risco": "Commodities não caem 15% (resiliência da demanda chinesa)",
+      "impacto": "Mineração e Petróleo deixam de ser prejudicados; tese negativa em VALE3 e positiva em Agro perdem força."
+    },
+    {
+      "risco": "Real não deprecia 10% (intervenção do Banco Central ou fluxo de capital)",
+      "impacto": "Ganho cambial de Agro e Celulose desaparece; teses positivas em SLCE3 e SUZB3 se invertem."
+    },
+    {
+      "risco": "Selic sobe menos de 2 p.p. (inflação cede antes)",
+      "impacto": "Pressão sobre Imobiliário e Saneamento alivia; posições vendidas em MRVE3 e construtoras perdem validade."
+    }
+  ],
+  "avisos_validacao": []
+}

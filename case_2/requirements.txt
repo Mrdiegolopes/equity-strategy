@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14
+yfinance>=0.2.40
+requests>=2.31
+pydantic>=2.6
+google-genai>=0.3.0
+anthropic>=0.34
+streamlit>=1.36
