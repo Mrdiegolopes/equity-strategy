@@ -1,0 +1,29 @@
+# Banco Bradesco (BBDC4) — Earnings Call Intelligence
+
+**Call analisada:** 1T26  ·  **Comparada com:** 4T25
+
+## Veredito
+
+**Tom geral:** Positivo. Tom construtivo: management reforça aceleração de receitas, NII e ROE acima do custo de capital, mas com cautela explícita em crédito rural, PDD e apetite de risco.
+**Surprise score:** 7/10 (inferencia). Sem usar consenso externo, a intensidade da fala sobre mais-valia da Bradsaúde, ROE acima do custo de capital e NIM perto de 9% sugere informação incremental relevante para a tese.
+
+## Mudancas vs. 4T25
+
+A mensagem de 1T26 mantém a tese de transformação do 4T25, mas muda o centro de gravidade para execução financeira: ROE, NII, Bradsaúde/capital e crédito com provisão mais conservadora.
+- **ROE e rentabilidade** (↑ elevado): 4T25 enfatizava superação do custo de capital; 1T26 reforça novo patamar com ROE maior…
+- **Bradsaúde e capital** (✦ novo): A abertura/listagem de Bradsaúde vira evento concreto de destravamento de valor e melhora de…
+- **Crédito e PDD** (↑ elevado): O 1T26 traz maior ênfase em custo de crédito, caso específico no atacado e rural antigo, embora…
+- **Tecnologia/IA** (= reiterado): O tema de AI first do 4T25 é reiterado no 1T26 como produtividade…
+
+## Perguntas mais criticas dos analistas
+
+- **Mário Pierry (Bank of America)** — Sustentabilidade do crescimento de NII com apetite de crédito mais moderado e quais segmentos preocupam nos próximos 12 meses. _(resposta direta)_: Boa resposta: conecta NII, NIM, mix de crédito e provisões. O ponto fraco é que não quantifica…
+- **Pedro Leduc (Itaú BBA)** — Qual é a leitura sobre PDD, principalmente atacado, rural e efeito da Resolução 4.966. _(resposta parcial)_: Explica drivers e dá conforto qualitativo, mas depende de julgamento…
+- **Henrique Navarro (Santander)** — Potencial de ROE e excesso de capital após Bradsaúde. _(resposta parcial)_: Resposta prudente: dá direção de criação de valor, mas evita compromisso explícito…
+
+## Red flags linguisticos
+
+- **cautela_excessiva**: O management reforça conservadorismo em crédito e agravo de provisão; não é alarmante, mas sinaliza que parte do custo de crédito pode continuar subindo com crescimento de carteira. → "O custo de crédito foi um pouco maior, e…
+- **evasao**: Parte das perguntas não respondidas na call ficou para RI, o que reduz transparência imediata sobre temas remanescentes. → "as perguntas que não pudemos responder serão respondidas no futuro…
+
+> Relatorio condensado automaticamente para caber em 400 palavras. Versao integral em outputs/resultado.json.

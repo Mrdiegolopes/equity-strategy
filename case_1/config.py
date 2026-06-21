@@ -1,4 +1,4 @@
-"""Configuracoes do Case 1 — Earnings Call Intelligence Tracker."""
+"""Confi do Case 1 — Earnings Call Intelligence Tracker."""
 from __future__ import annotations
 from pathlib import Path
 
@@ -27,5 +27,5 @@ LIMITE_PALAVRAS_RELATORIO = 500
 # Citation tracking: match exato primeiro; se falhar, fuzzy matching.
 CITACAO_SIMILARIDADE_MINIMA = 0.88
 
-# FinBERT-PT-BR via Hugging Face Inference API (opcional).
+# FinBERT-PT-BR via Hugging Face 
 FINBERT_MODEL = "lucas-leme/FinBERT-PT-BR"

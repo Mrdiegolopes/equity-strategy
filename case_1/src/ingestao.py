@@ -66,9 +66,9 @@ def _segmentar_slides(prepared: str) -> list[SlideSection]:
 
 
 def _segmentar_qa(qa: str) -> list[QATurn]:
-    """Heurística conservadora: identifica pergunta do analista e junta respostas seguintes até o próximo analista.
+    """Heurística conservadora,identifica pergunta do analista e junta respostas seguintes até o próximo analista.
 
-    Não tenta substituir o LLM; serve para auditoria, sidebar e inspeção rápida.
+    nao tenta substituir o LLMserve para auditoria, sidebar e inspeção rápida.
     """
     if not qa:
         return []

@@ -1,8 +1,7 @@
-"""Extensões opcionais do Case 1.
+"""Extensões  do Case 1.
 
-Implementadas:
-1) comparison multi-modelo: roda o mesmo input em Anthropic e Gemini e compara campos-chave.
-2) self-critique leve: usa citation tracking + divergência de modelos para apontar baixa robustez.
+ comparison multi-modelo: roda o mesmo input em Anthropic e Gemini compara campos-chave
+ self-critique leve usa citation tracking + divergência de modelos para apontar baixa robustez
 """
 from __future__ import annotations
 import os, sys, json

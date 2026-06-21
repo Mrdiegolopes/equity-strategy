@@ -1,21 +1,6 @@
 """
 Camada de LLM — extracao estruturada de inteligencia de earnings call.
 
-REAPROVEITADO do Case 2 (Macro Scenario Engine). Toda a infraestrutura de
-integracao com API -- deteccao de provedor, tool-use da Anthropic,
-response_schema do Gemini, resolucao de schema aninhado, supressao de
-thinking tokens, deteccao de truncamento -- foi desenvolvida e depurada la
-contra APIs reais e e reaproveitada aqui sem alteracao. O que muda e apenas
-os schemas e os prompts (o "o que" se pede ao LLM), nao o "como" se conversa
-com a API.
-
-Suporta dois provedores, com deteccao automatica por variavel de ambiente:
-  - ANTHROPIC_API_KEY -> Anthropic (Claude), via tool-use (prioridade)
-  - GEMINI_API_KEY     -> Google Gemini Flash, via response_schema
-
-O LLM e usado para LER e CLASSIFICAR texto -- nunca para inventar fatos. Toda
-afirmacao que ele produz deve vir ancorada em uma citacao literal, que e
-depois verificada deterministicamente contra o texto-fonte (citation tracking).
 """
 from __future__ import annotations
 import json
@@ -28,10 +13,6 @@ from schemas import AnaliseQualitativa, ComparacaoTemporal
 PROMPT_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "prompts")
 
-# Transcricoes sao longas e a extracao produz multiplos objetos aninhados
-# (tom + N perguntas + N red flags + surprise). 8000 tokens da margem real,
-# considerando tambem que modelos Gemini 2.5 consomem parte do orcamento de
-# output com raciocinio interno (ver _call_gemini). Custo extra irrelevante.
 MAX_OUTPUT_TOKENS = 8000
 
 
@@ -56,9 +37,8 @@ def _provedor(forcado: str | None = None) -> str:
         "  PowerShell: $env:ANTHROPIC_API_KEY='sk-ant-...'")
 
 
-# ─────────────────────────────────────────────
-# ANTHROPIC — tool-use nativo
-# ─────────────────────────────────────────────
+# ANTHROPIC 
+
 
 def _call_anthropic(system: str, user: str, schema_model):
     import anthropic
@@ -94,24 +74,11 @@ def _call_anthropic(system: str, user: str, schema_model):
     raise RuntimeError("Anthropic nao retornou tool_use — verifique o schema.")
 
 
-# ─────────────────────────────────────────────
-# GEMINI FLASH — response_schema nativo (SDK google-genai)
-#
-# Os comentarios abaixo documentam quatro incompatibilidades reais
-# descobertas e resolvidas durante o Case 2 (ver README do Case 2). Mantidos
-# aqui porque o codigo e o mesmo e os bugs continuam valendo.
-# ─────────────────────────────────────────────
+# GEMINI FLASH
 
 def _resolver_refs_schema(schema: dict) -> dict:
-    """Resolve $ref/$defs e remove `additionalProperties` -- dois campos que
-    o Pydantic gera e que a API do Gemini nao aceita.
-
-    - $ref/$defs: schemas aninhados (e o Case 1 tem MUITOS: TrechoCitado dentro
-      de AnaliseTom dentro de AnaliseQualitativa) geram referencias indiretas
-      que o SDK do Gemini nao resolve. Achatamos inline.
-    - additionalProperties: vem de `extra="forbid"`; a API rejeita com erro 400.
-      Removido do envio; a validacao Pydantic pos-resposta ainda barra campos
-      extras, entao a protecao anti-alucinacao se mantem (so muda de lado)."""
+    """Resolve $ref/$defs e remove `additionalProperties` dois campos que
+    o Pydantic gera e que a API do Gemini nao aceita  """
     defs = schema.pop("$defs", {})
 
     def _resolve(node):
@@ -145,9 +112,7 @@ def _call_gemini(system: str, user: str, schema_model):
         response_schema=schema_resolvido,
         max_output_tokens=MAX_OUTPUT_TOKENS,
         # Gemini 2.5 conta tokens de "thinking" dentro do mesmo orcamento de
-        # max_output_tokens, truncando o JSON visivel. Desligamos thinking
-        # pois a tarefa (preencher schema a partir de texto dado) nao se
-        # beneficia de raciocinio estendido. (Case 2, bug googleapis/python-genai #782.)
+        # max_output_tokens, truncando o JSON visivel. 
         thinking_config=types.ThinkingConfig(thinking_budget=0),
     )
 
@@ -186,9 +151,7 @@ def _call_gemini(system: str, user: str, schema_model):
             time.sleep(2)
 
 
-# ─────────────────────────────────────────────
 # DISPATCHER
-# ─────────────────────────────────────────────
 
 def _chamar(system: str, user: str, schema_model, provedor: str | None = None):
     prov = _provedor(provedor)
@@ -196,10 +159,7 @@ def _chamar(system: str, user: str, schema_model, provedor: str | None = None):
         return _call_anthropic(system, user, schema_model)
     return _call_gemini(system, user, schema_model)
 
-
-# ─────────────────────────────────────────────
 # INTERFACE PUBLICA
-# ─────────────────────────────────────────────
 
 def analisar_call(prepared_remarks: str, qa_texto: str,
                   empresa: str, rotulo: str,
@@ -222,9 +182,9 @@ def analisar_call(prepared_remarks: str, qa_texto: str,
 def comparar_trimestres(remarks_atual: str, remarks_anterior: str,
                         rotulo_atual: str, rotulo_anterior: str,
                         provedor: str | None = None) -> ComparacaoTemporal:
-    """Compara guidance e temas entre a call atual e a anterior.
-
-    Recebe so as apresentacoes (prepared remarks) das duas calls -- e ali que
+    """Compara guidance e temas entre a call atual e a anterior
+    
+    Recebe so as apresentacoes (prepared remarks) das duas calls e ali que
     guidance e temas estrategicos sao declarados, nao no Q&A."""
     system = _ler_prompt("comparar_trimestres.txt").format(
         rotulo_atual=rotulo_atual, rotulo_anterior=rotulo_anterior)

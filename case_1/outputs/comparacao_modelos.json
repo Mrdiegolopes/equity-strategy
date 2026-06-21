@@ -1,0 +1,15 @@
+{
+  "anthropic": {
+    "tom": "positivo",
+    "surprise_score": 4,
+    "n_red_flags": 5,
+    "top_perguntas": [
+      "Pedro Leduc (Itaú BBA)",
+      "Henrique Navarro (Santander)",
+      "Gustavo Schroden (Citi)"
+    ]
+  },
+  "gemini": {
+    "erro": "Gemini falhou apos 3 tentativas (modelo 'gemini-2.5-flash'): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The specified schema produces a constraint that has too many states for serving. Typical causes of this error are schemas with lots of text (for example, very long property or enum names), schemas with long array length limits (especially when nested), or schemas using complex value matchers (for example, integers or numbers with minimum/maximum bounds or strings with complex formats like date-time)', 'status': 'INVALID_ARGUMENT'}}\nResposta: indisponivel\nSe for 'model not found', ajuste GEMINI_MODEL."
+  }
+}

@@ -132,7 +132,7 @@ def _salvar(relatorio: RelatorioInteligencia):
     print("=" * 60)
     print(md)
     print("=" * 60)
-    print(f"\nRelatorio: {palavras} palavras (limite 400)")
+    print(f"\nRelatorio: {palavras} palavras")
     print(f"Salvo em: {caminho_md}")
     print(f"          {caminho_js}")
 
